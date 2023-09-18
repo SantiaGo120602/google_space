@@ -12,8 +12,8 @@ public class Space extends JFrame{
     private static final int starDimension = 300;
 
     public Space(ArrayList<Star> space, int xDimension, int yDimension) {
-        setTitle("Star Shape Example");
-        setSize(xDimension / 3, yDimension / 3);
+        setTitle("Google Space");
+        setSize(2000, 1000);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         JPanel panel = new JPanel();
