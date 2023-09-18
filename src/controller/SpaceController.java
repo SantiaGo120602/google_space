@@ -7,9 +7,9 @@ public class SpaceController{
     private SpaceModel model;
     private SpaceView view;
     
-    public SpaceController(SpaceModel model, SpaceView view) {
-        this.model = model;
-        this.view = view;
+    public SpaceController(int starAmount, int xDimension, int yDimension) {
+        this.model = new SpaceModel(starAmount, xDimension, yDimension);
+        this.view = new SpaceView(model.getSpace(), xDimension, yDimension);
     }
 
     public SpaceModel getModel() {

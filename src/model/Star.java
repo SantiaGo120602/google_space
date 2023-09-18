@@ -21,7 +21,16 @@ public class Star extends JComponent{
         StarSprite startSprite = starType.getStartSprite();
         g.fillPolygon(startSprite.getX(), startSprite.getY(), 16);
 
-        setBounds(X, Y, 300, 300);
     }
+
+    public int getX() {
+        return X;
+    }
+
+    public int getY() {
+        return Y;
+    }
+
+    
 
 }
