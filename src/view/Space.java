@@ -27,18 +27,6 @@ public class Space extends JFrame{
             panel.add(star);
         }
 
-        // Star star1 = new Star(StarTypeFactory.getType(Color.WHITE, 0), 0, 0);
-        // star1.setBounds(star1.getX(), star1.getY(), starDimension, starDimension);
-        // panel.add(star1);
-
-        // Star star2 = new Star(StarTypeFactory.getType(Color.YELLOW, 1), 1620, 620);
-        // star2.setBounds(star2.getX(), star2.getY(), starDimension, starDimension);
-        // panel.add(star2);
-
-        // Star star3 = new Star(StarTypeFactory.getType(Color.RED, 2), 301, 401);
-        // star3.setBounds(star3.getX(), star3.getY(), starDimension, starDimension);
-        // panel.add(star3);
-
         JScrollPane scrollPane = new JScrollPane(panel);
 
         add(scrollPane);
